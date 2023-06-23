@@ -1,6 +1,6 @@
 # plantUML-extension-samples
 
-```
+```plantuml
 @startuml
 !include <C4/C4_Container>
 
