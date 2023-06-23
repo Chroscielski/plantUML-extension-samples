@@ -38,5 +38,4 @@ fareDataEventHub --> streamAnalytics
 tripDataEventHub --> streamAnalytics
 streamAnalytics --> outputCosmosDb
 @enduml
-@enduml
 ```
