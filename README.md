@@ -1,5 +1,7 @@
 # plantUML-extension-samples
 
+Example repository for ShowMeTheDiagram Chrome Extension.
+
 ```
 @startuml
 !include <C4/C4_Container>
