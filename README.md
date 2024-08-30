@@ -35,9 +35,7 @@ AzureStreamAnalyticsJob(streamAnalytics, "Stream Processing", "6 SUs")
 AzureCosmosDb(outputCosmosDb, "Output Database", "1,000 RUs")
 
 devices --> fareDataEventHub
-devices --> tripDataEventHub
 fareDataEventHub --> streamAnalytics
-tripDataEventHub --> streamAnalytics
 streamAnalytics --> outputCosmosDb
 @enduml
 ```
